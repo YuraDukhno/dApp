@@ -1,0 +1,39 @@
+.button {
+  /* Box sizing */
+  width: 10rem;
+  height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  /* Styling */
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    -36px -4px 0px -21px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, -36px -4px 0px -21px rgba(0, 0, 0, 0);
+  background-color: #787a91;
+  transition: all 250ms;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.button--disabled {
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  /* Styling */
+  color: rgb(107, 107, 107);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    -36px -4px 0px -21px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, -36px -4px 0px -21px rgba(0, 0, 0, 0);
+  background-color: #787a91;
+  transition: all 250ms;
+}
